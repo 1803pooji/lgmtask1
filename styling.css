@@ -1,0 +1,65 @@
+body{
+    background-image: url('calci.jpg');
+}
+.box{
+    max-width: 500px;
+    margin:auto;
+    background:honeydew;
+    border-radius: 20px;
+    box-shadow: 0 0 4px 2px rgb(73, 55, 55);
+}
+#show{
+    text-align: left;
+    height: 40px;
+    line-height: 60px;
+    padding: 14px 14px;
+    font-size: 20px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+}
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+.button{
+    border: 0.5px solid #999;
+    line-height: 70px;
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+}
+.button:hover{
+    opacity: 0.8;
+    font-size: 23px;
+    background-color: rgb(22, 22, 22);
+    color: rgb(68, 59, 85);
+    transition: 0.2s ease-in-out;
+}
+#equal{
+    background:crimson
+}
+#equal:hover{
+    background: rgb(129, 64, 64);
+    font-weight: 700;
+    opacity: 1;
+}
+.operator{
+    background: rgb(40, 216, 5);
+}
+.operator:hover{
+    background: rgb(20, 175, 15);
+    color: black;
+}
+.clear{
+    color: rgb(158, 134, 0);
+    background: #dbdada;
+    font-weight: 600;
+}
+.clear:hover{
+    color: rgb(223, 208, 10);
+    transition: 0.4s ease-in-out;
+}
